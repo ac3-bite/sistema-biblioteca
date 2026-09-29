@@ -32,3 +32,7 @@ sistema-biblioteca/
 ## Versionamento
 Projeto utilizado para a atividade prÃ¡tica de GerÃªncia de ConfiguraÃ§Ã£o.
 VersÃ£o inicial planejada: v1.0.0.
+
+## Histórico de alterações
+
+Este projeto utiliza Git para registrar e controlar a evolução do sistema durante seu desenvolvimento.
