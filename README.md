@@ -52,7 +52,9 @@ Consulta de livros por título;
 Cadastro e identificação de usuários;
 Registro de empréstimos e devoluções;
 Teste automatizado para consulta do catálogo.
-Tecnologias utilizadas
+
+Tecnologias utilizadas:
+
 Python;
 Git;
 GitHub;
