@@ -15,8 +15,11 @@ class Livro:
         return self.quantidade_disponivel > 0
 
     def atualizar_disponibilidade(self, quantidade):
-        self.quantidade_disponivel = max(0, quantidade)
-        self.situacao = "disponível" if self.quantidade_disponivel > 0 else "indisponível"
+    if quantidade < 0:
+        raise ValueError("A quantidade disponível não pode ser negativa.")
+
+    self.quantidade_disponivel = quantidade
+    self.situacao = "disponível" if self.quantidade_disponivel > 0 else "indisponível"
 
         def __str__(self):
         return f"{self.titulo} - {self.autor} | ISBN: {self.isbn} | Situação: {self.situacao}"
